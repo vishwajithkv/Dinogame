@@ -9,6 +9,3 @@
 #define ObstacleMinGap 150 // The minimum gap between two obstacles in pixels
 #define JUMP_SPEED 40      // The speed of the dino's jump in pixels per frame
 #define GRAVITY 2          // The gravity of the dino in pixels per frame
-
-// Colors
-sf::Color GROUND_COLOR = sf::Color(0xa23331ff); // The color of the ground
