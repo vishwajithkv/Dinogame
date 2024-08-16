@@ -1,6 +1,6 @@
 # C++ Dino Game (Under Development)
 
-![Dino Game Screenshot](screenshot.png)
+![Dino Game Screenshot](assets/imgs/screenshot.png)
 
 ## Description
 

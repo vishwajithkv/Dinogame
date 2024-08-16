@@ -43,7 +43,7 @@ public:
     Dino()
     {
         // Load the texture file
-        DinosuarTexture.loadFromFile("dino.png");
+        DinosuarTexture.loadFromFile("assets/imgs/dino.png");
 
         // Set the texture to the sprite
         DinosuarSprite.setTexture(DinosuarTexture);
@@ -98,7 +98,7 @@ public:
     Obstacle(int x)
     {
         // Load the texture file
-        obstacleTexture.loadFromFile("cactus.png");
+        obstacleTexture.loadFromFile("assets/imgs/cactus.png");
 
         // Set the texture to the sprite
         obstacleSprite.setTexture(obstacleTexture);
@@ -247,7 +247,7 @@ private:
     {
         // Draw sky Image
         sf::Texture skyTexture;
-        skyTexture.loadFromFile("sky.png");
+        skyTexture.loadFromFile("assets/imgs/sky.png");
         sf::Sprite skySprite;
         skySprite.setTexture(skyTexture);
         window.draw(skySprite);
@@ -271,7 +271,7 @@ private:
         // Create two text objects to display the score and the highscore
         sf::Font font;
         sf::Text scoreText, highscoreText;
-        font.loadFromFile("pixelated.ttf");
+        font.loadFromFile("assets/fonts/pixelated.ttf");
 
         // Set the font for both texts
         scoreText.setFont(font);
