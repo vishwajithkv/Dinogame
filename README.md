@@ -15,6 +15,8 @@ This GitHub repository contains a fun and challenging game inspired by the class
 - C++ Compiler: The game is built using C++ programming language, so you will need a compatible C++ compiler to compile and run the game.
 - Libraries: The game relies on SFML (Simple and Fast Multimedia Library) for graphics, window management, and system interaction. Make sure to install the required libraries before compiling the game.
 
+`Note: The game requires the SFML library to function properly. This includes both the source code and the compiled version. Ensure SFML is correctly installed and configured on your system for the game to run`
+
 ## Compilation and Testing
 
 To compile and test the game, follow these steps:
