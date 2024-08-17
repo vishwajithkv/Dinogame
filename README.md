@@ -1,4 +1,4 @@
-# C++ Dino Game (Under Development)
+# C++ Dino Game
 
 ![Dino Game Screenshot](assets/imgs/screenshot.png)
 
@@ -8,7 +8,13 @@ This GitHub repository contains a fun and challenging game inspired by the class
 
 ## Features
 
-- Still need to be added.
+- Initial game.
+
+## Known issues
+
+- No restart feature yet
+
+- Random glitches
 
 ## Requirements
 
@@ -40,7 +46,7 @@ cd Dinogame
 5. Compile the `dino.cpp` source file using the provided `g++` command:
 
 ```
-g++ -o dino main.cpp **/*.cpp -lsfml-graphics -lsfml-window -lsfml-system
+g++ -o dino main.cpp **/*.cpp  -I . -g -lsfml-graphics -lsfml-window -lsfml-system 
 ```
 
 6. Run the compiled executable:
