@@ -40,7 +40,7 @@ cd Dinogame
 5. Compile the `dino.cpp` source file using the provided `g++` command:
 
 ```
-g++ -o dino dino.cpp -lsfml-graphics -lsfml-window -lsfml-system
+g++ -o dino main.cpp **/*.cpp -lsfml-graphics -lsfml-window -lsfml-system
 ```
 
 6. Run the compiled executable:
