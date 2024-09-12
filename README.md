@@ -16,6 +16,8 @@ This GitHub repository contains a fun and challenging game inspired by the class
 
 - Random glitches
 
+- Minor memory leak (In bytes)
+
 ## Requirements
 
 - C++ Compiler: The game is built using C++ programming language, so you will need a compatible C++ compiler to compile and run the game.
